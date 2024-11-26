@@ -16,6 +16,7 @@
 		FE7D2D542CE51E0E00962D8E /* WishCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D2D532CE51E0E00962D8E /* WishCardsViewController.swift */; };
 		FE7D2D562CE51E5F00962D8E /* CardConstructorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D2D552CE51E5F00962D8E /* CardConstructorViewController.swift */; };
 		FE7D2D582CE527FC00962D8E /* WishCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D2D572CE527FC00962D8E /* WishCardCell.swift */; };
+		FEE556BD2CE5567C00CF27E5 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE556BC2CE5567C00CF27E5 /* AnimalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FE7D2D532CE51E0E00962D8E /* WishCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCardsViewController.swift; sourceTree = "<group>"; };
 		FE7D2D552CE51E5F00962D8E /* CardConstructorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardConstructorViewController.swift; sourceTree = "<group>"; };
 		FE7D2D572CE527FC00962D8E /* WishCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCardCell.swift; sourceTree = "<group>"; };
+		FEE556BC2CE5567C00CF27E5 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +64,43 @@
 		FE7D2D3E2CE4F77A00962D8E /* WishCardMaker */ = {
 			isa = PBXGroup;
 			children = (
-				FE7D2D532CE51E0E00962D8E /* WishCardsViewController.swift */,
+				FEE556BB2CE555E300CF27E5 /* Resources */,
+				FEE556BA2CE555D600CF27E5 /* Models */,
+				FEE556B92CE5559100CF27E5 /* WishCards */,
 				FE7D2D3F2CE4F77A00962D8E /* AppDelegate.swift */,
 				FE7D2D412CE4F77A00962D8E /* SceneDelegate.swift */,
 				FE7D2D432CE4F77A00962D8E /* HomePageViewController.swift */,
 				FE7D2D452CE4F77A00962D8E /* Main.storyboard */,
-				FE7D2D482CE4F78000962D8E /* Assets.xcassets */,
 				FE7D2D4A2CE4F78000962D8E /* LaunchScreen.storyboard */,
-				FE7D2D4D2CE4F78000962D8E /* Info.plist */,
 				FE7D2D552CE51E5F00962D8E /* CardConstructorViewController.swift */,
-				FE7D2D572CE527FC00962D8E /* WishCardCell.swift */,
 			);
 			path = WishCardMaker;
+			sourceTree = "<group>";
+		};
+		FEE556B92CE5559100CF27E5 /* WishCards */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D2D532CE51E0E00962D8E /* WishCardsViewController.swift */,
+				FE7D2D572CE527FC00962D8E /* WishCardCell.swift */,
+			);
+			path = WishCards;
+			sourceTree = "<group>";
+		};
+		FEE556BA2CE555D600CF27E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEE556BC2CE5567C00CF27E5 /* AnimalModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEE556BB2CE555E300CF27E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D2D4D2CE4F78000962D8E /* Info.plist */,
+				FE7D2D482CE4F78000962D8E /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +180,7 @@
 				FE7D2D422CE4F77A00962D8E /* SceneDelegate.swift in Sources */,
 				FE7D2D542CE51E0E00962D8E /* WishCardsViewController.swift in Sources */,
 				FE7D2D562CE51E5F00962D8E /* CardConstructorViewController.swift in Sources */,
+				FEE556BD2CE5567C00CF27E5 /* AnimalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +334,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7PWNSSQ7T7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WishCardMaker/Info.plist;
+				INFOPLIST_FILE = WishCardMaker/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -340,7 +368,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7PWNSSQ7T7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WishCardMaker/Info.plist;
+				INFOPLIST_FILE = WishCardMaker/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
